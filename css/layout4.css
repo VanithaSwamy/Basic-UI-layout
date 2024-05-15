@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.wrapper{
+    width:60%;
+    min-height: 200px;
+    margin: auto;
+    /* border:2px solid black; */
+}
+.wrapper .main-header-div{
+    width: 100%;
+    min-height: 95px;
+    /* border:2px solid black; */
+    /* background-color: rgb(205, 195, 195); */
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.wrapper .main-header-div .logo{
+    width:100%;
+    height: 60px;
+    padding:10px;
+    border:2px solid black;
+    background-color: rgb(58, 55, 55);
+}
+.wrapper .main-header-div .logo h2{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+}
+.wrapper .main-header-div .menu{
+    width:60%;
+    height: 32px;
+    float:left;
+    background-color: black;
+    padding:5px;
+}
+.wrapper .main-header-div .menu a{
+    text-decoration: none;
+    color:rgb(100, 102, 102);
+    padding:10px;
+}
+.wrapper .main-header-div .menu a:hover{
+    background-color: rgb(52, 47, 47);
+    color:white;
+}
+.wrapper .main-header-div .search{
+    width:40%;
+    float:right;
+    background-color:black;
+    height:32px;
+    padding-right: 30px;
+    line-height: 30px;   
+}
+.wrapper .main-header-div .search .srch{
+    float:right;
+}
+.wrapper .main-header-div .search .srch input{
+    width:200px;
+    height: 20px;
+}
+.wrapper .main-header-div .search .srch button{
+    width:50px;
+    height: 20px;
+}
+.wrapper .main-content{
+    width:100%;
+    min-height: 100px;
+}
+.main-content .content{
+    width:64%;
+    height: 100%;
+    float:left;
+    margin-left: 10px; 
+    margin-top: 5px;
+    /* background-color: aqua;  */
+}
+.content .body-con{
+    background-color: rgb(244, 239, 239);
+    border: 1px solid black;
+    height: 100%;
+    width:100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.content .body-con h2{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content .body-con p{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.content .body-con button{
+    margin-left:10px;
+    margin-bottom: 10px;
+    width:100px;
+    height: 30px;
+}
+.content .row1{
+    /* border: 5px solid rgb(189, 8, 8); */
+    margin-top: 5px; 
+    min-height: 100px;
+    /* padding:10px; */
+}
+.col1{
+    width:47%;
+    float:left;
+    height:100%;
+    /* background-color: aquamarine; */
+    padding:5px;
+}
+.col1 p{
+    text-align: justify;
+    margin-top:10px;
+}
+.col1 h3{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.col1:nth-child(2){
+    margin-left: 4%;
+}
+.main-content .sidebar{
+    width:30%;
+    /* border: 1px solid black; */
+    float:right;
+    margin-top: 5px;
+    margin-right: 25px;
+    min-height: 100px;
+    padding:5px;
+}
+.main-content .sidebar h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-content .sidebar h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top:10px;
+}
+.main-row .row{
+    /* border:2px solid rgb(202, 6, 143); */
+    margin-top: 15px;
+    width:100%;
+    min-height: 100px;
+}
+.row .col{
+    float:left;
+    width:47%;
+    min-height: 95px;
+    background-color: rgb(227, 217, 217);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* border: 1px solid yellowgreen; */
+}
+.col:nth-child(2){
+    margin-left:5%;
+}
+.col h5{
+    text-align: center;
+    line-height: 95px;
+}
+.sidebar .widget{
+    margin-top:20px;
+    /* background-color: aquamarine; */
+    width:100%;
+    min-height:100px ;
+}
+.sidebar .widget h3{
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        /* color:blue; */
+}
+.sidebar .widget ul{
+    margin-top: 10px;
+    padding-left:25px;
+}
+.widget li{
+    padding:3px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(244, 239, 239);
+    margin-top: 5px;
+}
+.footer h4{
+    text-align: center;
+    line-height: 40px;
+}

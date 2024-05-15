@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:60%;
+    min-height: 100px;
+    margin:auto;
+    border:2px solid black;
+}
+.wrapper .main-header{
+    width:100%;
+    height:55px;
+    background-image: linear-gradient(#114357,#F29492);
+    /* border:2px solid red; */
+}
+.main-header .logo{
+    width:42%;
+    height:100%;
+    float:left;
+    /* background-color: #BB377D; */
+}
+.logo h1{
+    font-family: "Lugrasimo", cursive;
+    color:beige;
+    padding:10px;
+}
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:block;
+}
+.main-header .menu{
+    width:56%;
+    height: 100%;
+    float:right;
+    padding:6px;
+    line-height: 40px;
+    /* background-color: #96bb37; */
+}
+.menu a{
+    padding:13px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color:beige;
+}
+.menu a:hover{
+    background-color:rgb(251, 204, 211);
+    color:black;
+}
+.wrapper .slider{
+    width:100%;
+    height: 350px;
+    margin-top: 5px;
+    border: 2px solid red;
+}
+.slider img{
+    width:100%;
+    height: 100%;
+}

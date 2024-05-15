@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    min-height: 100px;
+    margin:auto;
+    /* border: 2px solid black; */
+}
+.main-header-div{
+    width:100%;
+    height: 60px;
+    /* border: 2px solid black; */
+}
+.main-header-div .logo{
+    width: 43%;
+    height: 100%;
+    padding:20px;/* all content in logo */
+    background-color:rgb(162, 205, 212); 
+    float:left;   
+}
+.main-header-div .logo h2{
+    color:rgb(55, 18, 155); 
+    padding-left: 30px; /*padding from logo*/
+}
+.main-header-div .menu{
+    width:55%;
+    height: 100%;
+    background-color: rgb(162, 205, 212); 
+    padding:20px;
+    float:right;
+}
+.main-header-div .menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size:1.3em; /*1em=16px*/
+}
+.menu a:hover{
+    background-color: bisque;
+    color:rgb(251, 107, 4);
+}
+.main-slider-div{
+    margin-top:5px;
+    /* background-color: brown; */
+    /* border: 2px solid black; */
+    width:100%;
+    height: 400px;
+}
+.main-slider-div img{
+    width:100%;
+    height:100%;
+}
+.main-content-div{
+    margin-top: 5px;
+    width:100%;
+    min-height: 500px;
+}
+.main-content-div .sidebar{
+    /* border: 2px solid black; */
+    width:33%;
+    min-height:300px;
+    float:left;
+    background-color: rgb(121, 149, 150);
+}
+.main-content-div .sidebar marquee{
+  padding:30px;
+  margin-top:40px;
+}
+.main-content-div .sidebar h3{
+    color: rgb(13, 12, 12);
+}
+.main-content-div .body-content{
+    /* border: 2px solid black; */
+    width:65%;
+    min-height  :500px; /*same height of parent*/
+    float:right;
+    /* background-color: rgb(121, 149, 150); */
+}
+.main-content-div .body-content h2{
+    padding:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.main-content-div .body-content p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    padding:5px;
+    text-align: justify;
+}
+.main-content-div .body-content .adv{
+    padding: 5px;
+    /* margin-left: 70px; */
+    width: 84%;
+    min-height: 300px;
+}
+.adv img{
+    width:100%;
+    height:100%;
+}
+.footer 
+{
+    width:100%;
+    height: 50px;
+    /* border: 2px solid black; */
+    background-color: rgb(162, 205, 212);
+    line-height: 55px;
+    text-align: center;
+    margin-top:5px;
+
+}

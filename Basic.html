@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .box{
+            width:60%;
+            min-height:200px ;
+            margin:auto;
+            border:1px solid black;
+        }
+        .box p{
+            padding:10px;
+        }
+        .box p::first-letter{
+            color:red;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        p mark{
+            background-color: lightgreen;
+        }
+        audio{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi laudantium voluptates, consequuntur consequatur sunt est hic, nesciunt inventore eaque iure. Expedita vel modi perferendis et eos ullam! Nemo dolor doloremque ullam natus autem rem dolorem repellat beatae culpa. <mark>Laudantium dolorem ea, illum eius, ad fugit, modi sunt pariatur quidem cumque dignissimos in debitis!Lorem ipsum, dolor sit amet consectetur adipisicing elit.</mark> Sequi sit nesciunt delectus reiciendis molestiae est nulla. Excepturi consectetur nam beatae adipisci culpa cumque, reiciendis aliquam eaque neque odit exercitationem illo temporibus placeat in praesentium.
+            </p>
+            <!-- <br /> -->
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi laudantium voluptates, consequuntur consequatur sunt est hic, nesciunt inventore eaque iure. Expedita vel modi perferendis et eos ullam! Nemo dolor doloremque ullam natus autem rem dolorem repellat beatae culpa. Laudantium dolorem ea, illum eius, ad fugit, modi sunt pariatur quidem cumque dignissimos in debitis!Lorem ipsum, <abbr title="type of currency">dolor</abbr> sit amet consectetur adipisicing elit. Sequi sit nesciunt delectus reiciendis molestiae est nulla. Excepturi consectetur nam beatae adipisci culpa cumque, reiciendis aliquam eaque neque odit exercitationem illo temporibus placeat in praesentium harum voluptatem repellat enim, <del>quae magnam ut! Excepturi dolorem numquam odit iste obcaecati natus </del>temporibus fugiat.
+            </p>
+
+            <audio controls autoplay loop muted>
+                <source src="audio/ringtone.mp3" type="audio/mp3">
+            </audio>
+
+            <!-- <audio src="audio/ringtone.mp3" loop="loop" controls id="my_audio"></audio> -->
+
+            <!-- <script type="text/javascript">
+                window.onload=function()
+                {
+                    document.getElementById('my_audio').autoplay();
+                }
+            </script> -->
+    </div>
+</body>
+</html>

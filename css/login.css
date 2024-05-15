@@ -1,0 +1,73 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box{
+    width:400px;
+    min-height: 270px;
+    border: 2px solid black;
+    margin:140px auto;
+}
+.header{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px;
+}
+.form-fields{
+    width:100%;
+    padding: 15px;
+    /* margin-top: 5px; */
+    /* border:2px solid orange; */
+}
+label{
+    width:100%;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type=text]{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-align: center; */
+}
+/* input[type=text]::placeholder{
+    text-align:center;
+    color:blue;
+    font-family: cursive;
+    font-weight: bolder;
+} */
+/* input[type=text]:focus{
+    color:blueviolet;
+    border-color: blue;
+    background-color: yellowgreen;
+} */
+input[type=password]{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-align: center; */
+}
+input[type=submit]{
+    width:100%;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 1em;
+    background-color:royalblue;
+    color:white;
+}
+input[type=submit]:hover{
+    background-color: green;
+    color:black;
+}
